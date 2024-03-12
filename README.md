@@ -50,7 +50,7 @@ ZUI 15.0.440(建议下载 这是首个支持了PC模式的版本 虽然并没有
 断开平板USB线<br>
 从系统里关机或者bootloader模式下选择关机 总之关机<br>
 打开QFIL.exe工具进行如下配置<br>
- - configuration -> Firehose configuration<br>
+- configuration -> Firehose configuration<br>
   - Device type 选择 "ufs"<br>
   - Validation mode 选择 "0 - no validation"<br>
   - Reset after download 打勾<br>
