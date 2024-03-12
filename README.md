@@ -58,6 +58,7 @@ ZUI 15.0.440(建议下载 这是首个支持了PC模式的版本 虽然并没有
  - Build type 选择"Flat Build"<br>
  - Programmer 选择ROM 405目录下的`prog_firehose_ddr.elf`<br>
  - Load XML 选择ROM 405目录下*所有列出来的xml文件*<br>
+
 按住音量+键不要松 把平板连接上USB<br>
 此时设备管理器里COM设备下会出现一个9008的设备 此时可以松开音量键<br>
 回到QFIL.exe工具点击Download按钮 会开始刷机
