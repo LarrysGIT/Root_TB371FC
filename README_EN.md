@@ -62,6 +62,7 @@ Back to QFIL.exe click on `Download`, flash commences
 Redo `Enable developer mode` and connect your tablet with Windows via USB<br>
 Follow the Magisk instruction to patch boot.img and flash it.<br>
 - https://topjohnwu.github.io/Magisk/install.html
+
 My steps following<br>
 Copy Magisk-v27.0.apk and boot.img (from ROM 405) to tablet<br>
 Install Magisk apk and run the app<br>
