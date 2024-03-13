@@ -1,33 +1,28 @@
 # Root_TB371FC
-Lenovo XiaoXin Pad Pro 2023 12.7 root and rescue<br>
-2024年我不知道你们root干嘛 我个人是用来跑linux deploy的container<br>
-ipad坏了之后刚好朋友在国内 我就让带了这个安卓平板过来<br>
-这个教程教你如何root联想小新pad pro 12.7以及9008救砖 以及一些小问题<br>
-所有URL默认都是https除非特别写明
+这个教程教你如何root联想小新pad pro 12.7以及9008救砖 以及一些小问题
 
 # 下载工具
 ## platform-tools
-`developer.android.com/tools/releases/platform-tools`<br>
+`https://developer.android.com/tools/releases/platform-tools`<br>
 里面包含adb fastboot命令行工具 以及安卓设备驱动
 
 ## 高通9008救砖工具和驱动
-`qfiltool.com`<br>
-`androiddatahost.com/nbyn6`
+`https://qfiltool.com`
 
 ## root工具apk文件
-`github.com/topjohnwu/Magisk/releases`
+`https://github.com/topjohnwu/Magisk/releases`
 
 # 下载ZUI ROM
 联想的ROM官网不提供下载 目前流出了3个版本的ROM我都在xda论坛上找到的<br>
 它们也是目前某些平台用来卖钱的所谓救砖包<br>
 ZUI 15.0.154开发版(不用下载只是放这做记录)<br>
-`mirrors.lolinet.com/firmware/lenowow/Tab_P12_Pro_2023/TB371FC/`<br>
+`https://mirrors.lolinet.com/firmware/lenowow/Tab_P12_Pro_2023/TB371FC/`<br>
 ZUI 15.0.405(建议下载)<br>
-`www.mediafire.com/file/vdfae5lei59frbo/TB371FC-ZUI_15.0.405-QFIL.zip/file`<br>
+`https://www.mediafire.com/file/vdfae5lei59frbo/TB371FC-ZUI_15.0.405-QFIL.zip/file`<br>
 ZUI 15.0.440(建议下载 这是首个支持了PC模式的版本 虽然并没有什么用)<br>
-`www.mediafire.com/file/k7pjpl2841rb8gl/TB371FC-ZUI_15.0.440_FASTBOOT_QFIL_v2.zip/file`<br>
+`https://www.mediafire.com/file/k7pjpl2841rb8gl/TB371FC-ZUI_15.0.440_FASTBOOT_QFIL_v2.zip/file`<br>
 我是先刷了405 -> 再刷了440 (数据可以保留)<br>
-你也可以选择直接440只是我没验证过<br>
+你也可以选择直接440只是我没验证过
 
 # 为什么要下载ROM刷机? 不能直接root现有的系统吗?
 因为root工具Magisk需要ROM相应版本的boot.img文件 而联想并不提供ROM下载<br>
@@ -40,8 +35,8 @@ ZUI 15.0.440(建议下载 这是首个支持了PC模式的版本 虽然并没有
 # 解锁bootloader
 *该步骤会导致失去保修且解锁后就无法再重新锁上*<br>
 执行`adb reboot bootloader`进入fastboot模式 面板上会显示该平板的序列号(SN)<br>
-然后修改如下的链接 sn号改为你自己平板的 然后粘贴到浏览器里下载sn.img (手动加上前缀http://)<br>
-`cdn.zui.lenovomm.com/developer/tabletboot/SN号/sn.img`<br>
+然后修改如下的链接 sn号改为你自己平板的 然后粘贴到浏览器里下载sn.img<br>
+`http://cdn.zui.lenovomm.com/developer/tabletboot/SN号/sn.img`<br>
 运行`fastboot flash unlock sn.img`刷入下载的sn.img<br>
 运行`fastboot reboot`重启 屏幕上会提示设备已经解锁
 
@@ -90,4 +85,4 @@ root已经完成
 ZUI本身内置了google框架 但处于禁用状态 版本也太低<br>
 启用并更新google framework即可 ZUI基于Android 13<br>
 随便下载一个安装<br>
-`www.apkmirror.com/apk/google-inc/google-services-framework/google-services-framework-13-release/`
+`https://www.apkmirror.com/apk/google-inc/google-services-framework/google-services-framework-13-release/`
