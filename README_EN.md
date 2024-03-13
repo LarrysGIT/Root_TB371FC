@@ -35,7 +35,7 @@ Settings -> General -> Developer mode -> Enable USB debugging -> Connect to comp
 # Unlock bootloader
 *You lost warranty if you unlock your device and there is no way to lock again, risk on your own*<br>
 Execute `adb reboot bootloader` to fastboot, you will see the tablet's serial number<br>
-Download your sn.img by pasting the following URL in browser (from XDA)<br>
+Download your sn.img by pasting the following URL in browser<br>
 `http://cdn.zui.lenovomm.com/developer/tabletboot/{your SN number}/sn.img`<br>
 Execute `fastboot flash unlock sn.img` to flash sn.img<br>
 Execute `fastboot reboot` tablet is now showing unlocked
