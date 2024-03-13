@@ -8,6 +8,7 @@
 
 ## 高通9008救砖工具和驱动
 `https://qfiltool.com`
+下载完成后安装QPST.2.7.496.1.exe和\Driver\Qualcomm USB Driver V1.0.exe
 
 ## root工具apk文件
 `https://github.com/topjohnwu/Magisk/releases`

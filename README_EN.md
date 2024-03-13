@@ -8,6 +8,7 @@ It contains adb fastboot
 
 ## Qualcomm Flash Image Loader (9008)
 `https://qfiltool.com`
+Dont forget to install \Driver\Qualcomm USB Driver V1.0.exe
 
 ## root apk
 `https://github.com/topjohnwu/Magisk/releases`
