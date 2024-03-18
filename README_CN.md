@@ -7,7 +7,7 @@
 里面包含adb fastboot命令行工具 以及安卓设备驱动
 
 ## 高通9008救砖工具和驱动
-`https://qfiltool.com`
+`https://qfiltool.com`<br>
 下载完成后安装QPST.2.7.496.1.exe和\Driver\Qualcomm USB Driver V1.0.exe
 
 ## root工具apk文件
@@ -36,8 +36,10 @@ ZUI 15.0.440(建议下载 这是首个支持了PC模式的版本 虽然并没有
 # 解锁bootloader
 *该步骤会导致失去保修且解锁后就无法再重新锁上*<br>
 执行`adb reboot bootloader`进入fastboot模式 面板上会显示该平板的序列号(SN)<br>
-然后修改如下的链接 sn号改为你自己平板的 然后粘贴到浏览器里下载sn.img<br>
+拿着这个SN去联想官网申请解锁bootloader 联想会给你发一个邮件链接如下<br>
 `http://cdn.zui.lenovomm.com/developer/tabletboot/SN号/sn.img`<br>
+如果等不了联想给你发邮件 也可以通过修改这个repo里的`sn_AAAAAAAA.img`文件<br>
+用16进制编辑器打开这个文件 找到AAAAAAAA的字符串 然后修改为自己平板的SN号保存即可<br>
 运行`fastboot flash unlock sn.img`刷入下载的sn.img<br>
 运行`fastboot reboot`重启 屏幕上会提示设备已经解锁
 

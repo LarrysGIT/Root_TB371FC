@@ -7,7 +7,7 @@ Lenovo XiaoXin Pad Pro 2023 12.7 root and 9008 rescue
 It contains adb fastboot
 
 ## Qualcomm Flash Image Loader (9008)
-`https://qfiltool.com`
+`https://qfiltool.com`<br>
 Dont forget to install \Driver\Qualcomm USB Driver V1.0.exe
 
 ## root apk
@@ -36,8 +36,10 @@ Settings -> General -> Developer mode -> Enable USB debugging -> Connect to comp
 # Unlock bootloader
 *You lost warranty if you unlock your device and there is no way to lock again, risk on your own*<br>
 Execute `adb reboot bootloader` to fastboot, you will see the tablet's serial number<br>
-Download your sn.img by pasting the following URL in browser<br>
+Go to Lenovo bootunloader unlock application website, provide your SN, Lenovo will send you a link via email<br>
 `http://cdn.zui.lenovomm.com/developer/tabletboot/{your SN number}/sn.img`<br>
+If you can't wait, you can also replace string `AAAAAAAA` with your SN number in the file `sn_AAAAAAAA.img` from this repo<br>
+You need a hex editor to perform the SN update, notepad won't work<br>
 Execute `fastboot flash unlock sn.img` to flash sn.img<br>
 Execute `fastboot reboot` tablet is now showing unlocked
 
