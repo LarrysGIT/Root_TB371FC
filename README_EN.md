@@ -93,3 +93,10 @@ ZUI install google framework already, however, it is disabled by default and ver
 Enable google framework from settings -> apps<br>
 ZUI bases on Android 13, download the apk and install it, google services will work again<br>
 `https://www.apkmirror.com/apk/google-inc/google-services-framework/google-services-framework-13-release/`
+
+# Different versions of the boot.img
+Recently, an XDA forum user repost few versions of the boot.img from 4PDA<br>
+- boot_543orig.img<br>
+- boot_575orig.img<br>
+- boot_650orig.img<br>
+https://xdaforums.com/t/tb371fc-xiaoxin-pad-pro-2023-12-7-sharing-and-support.4642987/page-23#post-89442944

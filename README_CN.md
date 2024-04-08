@@ -89,3 +89,10 @@ ZUI本身内置了google框架 但处于禁用状态 版本也太低<br>
 启用并更新google framework即可 ZUI基于Android 13<br>
 随便下载一个安装<br>
 `https://www.apkmirror.com/apk/google-inc/google-services-framework/google-services-framework-13-release/`
+
+# 其它ZUI版本的boot.img
+XDA上有用户从4PDA论坛上转了几个ZUI系统版本的boot.img<br>
+- boot_543orig.img<br>
+- boot_575orig.img<br>
+- boot_650orig.img<br>
+https://xdaforums.com/t/tb371fc-xiaoxin-pad-pro-2023-12-7-sharing-and-support.4642987/page-23#post-89442944
