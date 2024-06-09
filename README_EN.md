@@ -15,14 +15,14 @@ Dont forget to install \Driver\Qualcomm USB Driver V1.0.exe
 
 # ZUI ROM
 Lenovo doesn't provide their ZUI ROMs, so far i managed to find 3 versions from XDA forum<br>
-ZUI 15.0.154 Dev version(no need to download, just for reference)<br>
-`https://mirrors.lolinet.com/firmware/lenowow/Tab_P12_Pro_2023/TB371FC/`<br>
 ZUI 15.0.405(suggest to download)<br>
 `https://www.mediafire.com/file/vdfae5lei59frbo/TB371FC-ZUI_15.0.405-QFIL.zip/file`<br>
-ZUI 15.0.440(suggest to download, this is the first version supports PC mode)<br>
+
+Other versions for record purpose,<br>
+ZUI 15.0.154 Dev version<br>
+`https://mirrors.lolinet.com/firmware/lenowow/Tab_P12_Pro_2023/TB371FC/`<br>
+ZUI 15.0.440(this is the first version supports PC mode)<br>
 `https://www.mediafire.com/file/k7pjpl2841rb8gl/TB371FC-ZUI_15.0.440_FASTBOOT_QFIL_v2.zip/file`<br>
-My ROM flashing path: 405 -> 440<br>
-You may go directly to 440, I dont know if it gonna work or what.
 
 # Can I root on current version of ZUI instead of downloading a previous release?
 Unfortunately, no.<br>
@@ -71,15 +71,15 @@ Copy Magisk-v27.0.apk and boot.img (from ROM 405) to tablet<br>
 Install Magisk apk and run the app<br>
 From Magisk, install -> select and patch a file -> select boot.img<br>
 Copy the patched magisk_patched_xxxxxxx.img to Windows<br>
-Execute `adb reboot bootloader` to fastboot<br>
+Execute `adb reboot bootloader` to bootloader<br>
 Execute `fastboot flash boot magisk_patched_xxxxxxx.img` to flash boot.img<br>
 Enter ZUI and run Magisk, you will see the button `superuser` now is clickable<br>
 root is completed
 
-# Update from 405 -> 440
-Update the system requires to do *Install Magisk and root* again<br>
-Execte `adb reboot bootloader` to fastboot<br>
-Execte `flash_all.bat` from ROM 440
+# Update ZUI normally via OTA
+If you had flahsed with a Magisk patched boot.img, you need to flash the original boot.img first, if you don't do such, OTA will loop in download/upgrade and never finishes.<br>
+Execte `adb reboot bootloader` to bootloader<br>
+Execute `fastboot flash boot boot.img` to flash the original boot.img<br>
 
 # Disable system update
 Execute `adb shell`<br>
