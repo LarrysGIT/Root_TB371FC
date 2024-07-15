@@ -34,7 +34,10 @@ ZUI 15.0.440(这是首个支持了PC模式的版本)<br>
 通用 -> 开发者选项 -> 打开usb调试 -> 连上电脑 -> 确认信任该计算机
 
 # 解锁bootloader
-*该步骤会导致失去保修且解锁后就无法再重新锁上*<br>
+_该步骤会导致失去保修且解锁后就无法再重新锁上_<br>
+
+> 如果已经解锁请跳过该步骤
+
 执行`adb reboot bootloader`进入bootloader模式 面板上会显示该平板的序列号(SN)<br>
 拿着这个SN去联想官网申请解锁bootloader 联想会给你发一个邮件链接如下<br>
 `http://cdn.zui.lenovomm.com/developer/tabletboot/SN号/sn.img`<br>
@@ -48,6 +51,7 @@ ZUI 15.0.440(这是首个支持了PC模式的版本)<br>
 断开平板USB线<br>
 从系统里关机或者bootloader模式下选择关机 总之关机<br>
 打开QFIL.exe工具进行如下配置<br>
+
 - configuration -> Firehose configuration<br>
 - - Device type 选择 "ufs"<br>
 - - Validation mode 选择 "0 - no validation"<br>
@@ -55,7 +59,7 @@ ZUI 15.0.440(这是首个支持了PC模式的版本)<br>
 - - 点OK确定<br>
 - Build type 选择"Flat Build"<br>
 - Programmer 选择ROM 405目录下的`prog_firehose_ddr.elf`<br>
-- Load XML 选择ROM 405目录下*所有列出来的xml文件*<br>
+- Load XML 选择ROM 405目录下_所有列出来的xml文件_<br>
 
 按住音量+键不要松 把平板连接上USB<br>
 此时设备管理器里COM设备下会出现一个9008的设备 此时可以松开音量键<br>
@@ -63,6 +67,10 @@ ZUI 15.0.440(这是首个支持了PC模式的版本)<br>
 
 # 安装root工具Magisk并root
 重新执行`解锁开发者模式`步骤 连上USB<br>
+下面的链接是Magisk官方文档<br>
+ - https://topjohnwu.github.io/Magisk/install.html
+
+简化步骤如下<br>
 把Magisk-v27.0.apk和对应ROM的boot.img传到平板上<br>
 安装Magisk-v27.0.apk 安装完后打开应用<br>
 选择install -> select and patch a file -> 选择boot.img<br>
@@ -97,3 +105,8 @@ XDA上有用户从4PDA论坛上转了几个ZUI系统版本的boot.img<br>
 - boot_575orig.img<br>
 - boot_650orig.img<br>https://xdaforums.com/t/tb371fc-xiaoxin-pad-pro-2023-12-7-sharing-and-support.4642987/page-23#post-89442944
 - boot_664orig.img<br>XDA上没有人上传 我从4PDA上下载了 放在`boot.imgs`文件夹里
+
+# Troubleshooting
+## QFIL errors
+如果你遇到了错误，比如`Sahara protocol`, 你可以试试更换QPST `https://qpsttool.com/qpst-tool-v2-7-496`.(#1)<br>
+

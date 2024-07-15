@@ -1,25 +1,19 @@
 # Root_TB371FC
-
 Lenovo XiaoXin Pad Pro 2023 12.7 root and 9008 rescue
 
 # Tools
-
 ## platform-tools
-
 `https://developer.android.com/tools/releases/platform-tools`<br>
 It contains adb fastboot
 
 ## Qualcomm Flash Image Loader (9008)
-
 `https://qfiltool.com`<br>
 Dont forget to install \Driver\Qualcomm USB Driver V1.0.exe
 
 ## root apk
-
 `https://github.com/topjohnwu/Magisk/releases`
 
 # ZUI ROM
-
 Lenovo doesn't provide their ZUI ROMs, so far i managed to find 3 versions from XDA forum<br>
 ZUI 15.0.405(suggest to download)<br>
 `https://www.mediafire.com/file/vdfae5lei59frbo/TB371FC-ZUI_15.0.405-QFIL.zip/file`<br>
@@ -31,18 +25,15 @@ ZUI 15.0.440(this is the first version supports PC mode)<br>
 `https://www.mediafire.com/file/k7pjpl2841rb8gl/TB371FC-ZUI_15.0.440_FASTBOOT_QFIL_v2.zip/file`<br>
 
 # Can I root on current version of ZUI instead of downloading a previous release?
-
 Unfortunately, no.<br>
 In order to use root tool Magisk, it requires a matched version of boot.img from the current ROM.<br>
 While Lenovo doesn't provide their ROMs, it is no way to obtain the correct boot.img.
 
 # Enable developer mode
-
 In ZUI, settings -> about -> software version (zui 15.0.xxx) tapping on it -> in developer mode<br>
 Settings -> General -> Developer mode -> Enable USB debugging -> Connect to computer -> trust this computer
 
 # Unlock bootloader
-
 _You lost warranty if you unlock your device and there is no way to lock again, risk on your own_<br>
 
 > If you're bootloader is already unlock skip this step.
@@ -56,7 +47,6 @@ Execute `fastboot flash unlock sn.img` to flash sn.img<br>
 Execute `fastboot reboot` tablet is now showing unlocked
 
 # 9008 flashing
-
 Open the device manager from Windows<br>
 Disconnect your tablet from Windows<br>
 Power off your tablet<br>
@@ -76,10 +66,8 @@ You should be able to see from the device manager, a device with suffix 9008 sho
 Back to QFIL.exe click on `Download`, flash commences
 
 # Install Magisk and root
-
 Redo `Enable developer mode` and connect your tablet with Windows via USB<br>
 Follow the Magisk instruction to patch boot.img and flash it.<br>
-
 - https://topjohnwu.github.io/Magisk/install.html
 
 My steps following<br>
@@ -93,13 +81,11 @@ Enter ZUI and run Magisk, you will see the button `superuser` now is clickable<b
 root is completed
 
 # Update ZUI normally via OTA
-
 If you had flahsed with a Magisk patched boot.img, you need to flash the original boot.img first, if you don't do such, OTA will loop in download/upgrade and never finishes.<br>
 Execte `adb reboot bootloader` to bootloader<br>
 Execute `fastboot flash boot boot.img` to flash the original boot.img<br>
 
 # Disable system update
-
 Execute `adb shell`<br>
 Execute `su` it will give error `permission denied`<br>
 In Magisk, allow shell to run as root<br>
@@ -107,24 +93,19 @@ Execute `su` again<br>
 Execute `pm disable com.lenovo.ota`
 
 # google apps are unable to connect to internet
-
 ZUI install google framework already, however, it is disabled by default and version is behind<br>
 Enable google framework from settings -> apps<br>
 ZUI bases on Android 13, download the apk and install it, google services will work again<br>
 `https://www.apkmirror.com/apk/google-inc/google-services-framework/google-services-framework-13-release/`
 
 # Different versions of the boot.img
-
 Recently, an XDA forum user repost few versions of the boot.img from 4PDA<br>
 Credit to https://4pda.to/forum/index.php?showtopic=1073502&st=1980#entry126890252<br>
-
 - boot_543orig.img<br>
 - boot_575orig.img<br>
 - boot_650orig.img<br>https://xdaforums.com/t/tb371fc-xiaoxin-pad-pro-2023-12-7-sharing-and-support.4642987/page-23#post-89442944
 - boot_664orig.img<br>Since no one upload to XDA, I managed to download it from 4PDA, find it from `boot.imgs` directory
 
 # Troubleshooting
-
 ## QFIL errors
-
-If you have errors during the ROM flash with QFIL. For example Sahara protocol errors, or path not found errors try using QFIL installed from QPST `https://qpsttool.com/qpst-tool-v2-7-496` instead of the standalone version `https://qfiltool.com/qfil-tool-v2-0-3-5`.
+If you have errors during the ROM flash with QFIL. For example Sahara protocol errors, or path not found errors try using QFIL installed from QPST `https://qpsttool.com/qpst-tool-v2-7-496` instead of the standalone version `https://qfiltool.com/qfil-tool-v2-0-3-5`.(#1)<br>
