@@ -108,4 +108,4 @@ Credit to https://4pda.to/forum/index.php?showtopic=1073502&st=1980#entry1268902
 
 # Troubleshooting
 ## QFIL errors
-If you have errors during the ROM flash with QFIL. For example Sahara protocol errors, or path not found errors try using QFIL installed from QPST `https://qpsttool.com/qpst-tool-v2-7-496` instead of the standalone version `https://qfiltool.com/qfil-tool-v2-0-3-5`.(#1)<br>
+If you have errors during the ROM flash with QFIL. For example Sahara protocol errors, or path not found errors try using QFIL installed from QPST `https://qpsttool.com/qpst-tool-v2-7-496` instead of the standalone version `https://qfiltool.com/qfil-tool-v2-0-3-5`.(https://github.com/LarrysGIT/Root_TB371FC/issues/1)<br>

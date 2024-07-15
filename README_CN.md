@@ -108,5 +108,5 @@ XDA上有用户从4PDA论坛上转了几个ZUI系统版本的boot.img<br>
 
 # Troubleshooting
 ## QFIL errors
-如果你遇到了错误，比如`Sahara protocol`, 你可以试试更换QPST `https://qpsttool.com/qpst-tool-v2-7-496`.(#1)<br>
+如果你遇到了错误，比如`Sahara protocol`, 你可以试试更换QPST `https://qpsttool.com/qpst-tool-v2-7-496`.(https://github.com/LarrysGIT/Root_TB371FC/issues/1)<br>
 
