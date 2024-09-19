@@ -98,13 +98,12 @@ Enable google framework from settings -> apps<br>
 ZUI bases on Android 13, download the apk and install it, google services will work again<br>
 `https://www.apkmirror.com/apk/google-inc/google-services-framework/google-services-framework-13-release/`
 
-# Different versions of the boot.img
-Recently, an XDA forum user repost few versions of the boot.img from 4PDA<br>
-Credit to https://4pda.to/forum/index.php?showtopic=1073502&st=1980#entry126890252<br>
-- boot_543orig.img<br>
-- boot_575orig.img<br>
-- boot_650orig.img<br>https://xdaforums.com/t/tb371fc-xiaoxin-pad-pro-2023-12-7-sharing-and-support.4642987/page-23#post-89442944
-- boot_664orig.img<br>Since no one upload to XDA, I managed to download it from 4PDA, find it from `boot.imgs` directory
+# Other versions of the boot.img
+Thanks to the original uploader/poster<br>
+ - https://4pda.to/forum/index.php?showtopic=1073502&st=1980#entry126890252<br>
+There are few other versions on XDA reposted from 4PDA (ZUI 15 boot.img 543/575/650)<br>
+ - https://xdaforums.com/t/tb371fc-xiaoxin-pad-pro-2023-12-7-sharing-and-support.4642987/page-23#post-89442944<br>
+In the meantime, myself download few and placed in `boot.imgs`<br>
 
 # Troubleshooting
 ## QFIL errors
