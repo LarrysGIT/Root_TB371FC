@@ -80,24 +80,6 @@ _该步骤会导致失去保修且解锁后就无法再重新锁上_<br>
 再进系统运行Magisk 就发现superuser按钮已经点亮<br>
 root已经完成
 
-# 通过zui自动升级系统
-如果你刷过boot.img 需要先在bootloader下把当前系统对应的boot.img刷回去才能正常OTA升级系统，否则升级会失败(不停地下载升级下载升级无法成功)<br>
-执行`adb reboot bootloader`后进入bootloader模式<br>
-执行`fastboot flash boot boot.img`刷入原装的boot.img<br>
-
-# 禁用系统更新
-执行`adb shell`<br>
-执行`su`此时会提示permission denied<br>
-在Magisk中允许shell的root权限<br>
-重新执行`su`<br>
-执行`pm disable com.lenovo.ota`
-
-# google服务一直提示连不上服务器
-ZUI本身内置了google框架 但处于禁用状态 版本也太低<br>
-启用并更新google framework即可 ZUI基于Android 13<br>
-随便下载一个安装<br>
-`https://www.apkmirror.com/apk/google-inc/google-services-framework/google-services-framework-13-release/`
-
 # 其它ZUI版本的boot.img
 原始上传用户及贴子 (Credit)<br>
  - https://4pda.to/forum/index.php?showtopic=1073502&st=1980#entry126890252
@@ -113,6 +95,23 @@ XDA上有用户从4PDA论坛上转了几个ZUI系统版本的boot.img (ZUI 15 bo
  - 16.0.430
 
 # Troubleshooting
-## QFIL errors
+## QFIL遇到错误
 如果你遇到了错误，比如`Sahara protocol`, 你可以试试更换QPST `https://qpsttool.com/qpst-tool-v2-7-496`.(https://github.com/LarrysGIT/Root_TB371FC/issues/1)<br>
 
+## 通过zui自动升级系统
+如果你刷过非原版的boot.img 需要先在bootloader下把当前系统对应的boot.img刷回去才能正常OTA升级系统，否则升级会失败(不停地下载升级下载升级无法成功)<br>
+执行`adb reboot bootloader`后进入bootloader模式<br>
+执行`fastboot flash boot boot.img`刷入原装的boot.img<br>
+
+## 禁用系统ota更新
+连上电脑执行`adb shell`<br>
+执行`su` 此时会提示permission denied<br>
+在Magisk中允许shell的root权限<br>
+重新执行`su`<br>
+执行`pm disable com.lenovo.ota`
+
+## google服务一直提示连不上服务器
+ZUI本身内置了google框架 但处于禁用状态 版本也太低<br>
+启用并更新google framework即可 ZUI基于Android 13<br>
+随便下载一个安装<br>
+`https://www.apkmirror.com/apk/google-inc/google-services-framework/google-services-framework-13-release/`
