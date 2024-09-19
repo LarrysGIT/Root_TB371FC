@@ -80,24 +80,6 @@ Execute `fastboot flash boot magisk_patched_xxxxxxx.img` to flash boot.img<br>
 Enter ZUI and run Magisk, you will see the button `superuser` now is clickable<br>
 root is completed
 
-# Update ZUI normally via OTA
-If you had flahsed with a Magisk patched boot.img, you need to flash the original boot.img first, if you don't do such, OTA will loop in download/upgrade and never finishes.<br>
-Execte `adb reboot bootloader` to bootloader<br>
-Execute `fastboot flash boot boot.img` to flash the original boot.img<br>
-
-# Disable system update
-Execute `adb shell`<br>
-Execute `su` it will give error `permission denied`<br>
-In Magisk, allow shell to run as root<br>
-Execute `su` again<br>
-Execute `pm disable com.lenovo.ota`
-
-# google apps are unable to connect to internet
-ZUI install google framework already, however, it is disabled by default and version is behind<br>
-Enable google framework from settings -> apps<br>
-ZUI bases on Android 13, download the apk and install it, google services will work again<br>
-`https://www.apkmirror.com/apk/google-inc/google-services-framework/google-services-framework-13-release/`
-
 # Other versions of the boot.img
 Thanks to the original uploader/poster<br>
  - https://4pda.to/forum/index.php?showtopic=1073502&st=1980#entry126890252
@@ -115,3 +97,21 @@ In the meantime, myself download few and placed in `boot.imgs`<br>
 # Troubleshooting
 ## QFIL errors
 If you have errors during the ROM flash with QFIL. For example Sahara protocol errors, or path not found errors try using QFIL installed from QPST `https://qpsttool.com/qpst-tool-v2-7-496` instead of the standalone version `https://qfiltool.com/qfil-tool-v2-0-3-5`.(https://github.com/LarrysGIT/Root_TB371FC/issues/1)<br>
+
+## Update ZUI normally via OTA
+If you had flahsed with a Magisk patched boot.img, you need to flash the original boot.img first, if you don't do such, OTA will loop between download and upgrade updates, and never finishes.<br>
+Execte `adb reboot bootloader` to bootloader<br>
+Execute `fastboot flash boot boot.img` to flash the original boot.img<br>
+
+## Disable system OTA update
+Execute `adb shell`<br>
+Execute `su` it will give error `permission denied`<br>
+In Magisk, allow shell to run as root<br>
+Execute `su` again<br>
+Execute `pm disable com.lenovo.ota`
+
+## google apps are unable to connect to internet
+ZUI install google framework already, however, it is disabled by default and version is behind<br>
+Enable google framework from settings -> apps<br>
+ZUI bases on Android 13, download the apk and install it, google services will work again<br>
+`https://www.apkmirror.com/apk/google-inc/google-services-framework/google-services-framework-13-release/`
