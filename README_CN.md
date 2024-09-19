@@ -101,8 +101,10 @@ ZUI本身内置了google框架 但处于禁用状态 版本也太低<br>
 # 其它ZUI版本的boot.img
 原始上传用户及贴子 (Credit)<br>
  - https://4pda.to/forum/index.php?showtopic=1073502&st=1980#entry126890252<br>
+
 XDA上有用户从4PDA论坛上转了几个ZUI系统版本的boot.img (ZUI 15 boot.img 543/575/650)<br>
  - https://xdaforums.com/t/tb371fc-xiaoxin-pad-pro-2023-12-7-sharing-and-support.4642987/page-23#post-89442944<br>
+
 同时我也下载了一些放在本repo的`boot.imgs`文件夹里<br>
 
 # Troubleshooting

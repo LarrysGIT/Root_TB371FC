@@ -101,8 +101,10 @@ ZUI bases on Android 13, download the apk and install it, google services will w
 # Other versions of the boot.img
 Thanks to the original uploader/poster<br>
  - https://4pda.to/forum/index.php?showtopic=1073502&st=1980#entry126890252<br>
+
 There are few other versions on XDA reposted from 4PDA (ZUI 15 boot.img 543/575/650)<br>
  - https://xdaforums.com/t/tb371fc-xiaoxin-pad-pro-2023-12-7-sharing-and-support.4642987/page-23#post-89442944<br>
+
 In the meantime, myself download few and placed in `boot.imgs`<br>
 
 # Troubleshooting
