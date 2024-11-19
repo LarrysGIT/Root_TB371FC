@@ -93,6 +93,7 @@ XDA上有用户从4PDA论坛上转了几个ZUI系统版本的boot.img (ZUI 15 bo
 同时我也下载了一些放在本repo的`boot.imgs`文件夹里<br>
  - 15.0.664
  - 16.0.430
+ - 16.0.443
 
 # Troubleshooting
 ## QFIL遇到错误
