@@ -93,6 +93,7 @@ There are few other versions on XDA reposted from 4PDA (ZUI 15 boot.img 543/575/
 In the meantime, myself download few and placed in `boot.imgs`<br>
  - 15.0.664
  - 16.0.430
+ - 16.0.443
 
 # Troubleshooting
 ## QFIL errors
