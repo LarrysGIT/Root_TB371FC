@@ -31,7 +31,8 @@ the following is instructions<br>
 - Rename the archive to OTA.zip and put it in the root of the disk
 - Go to settings -> About tablet -> System update
 - Tap 7 times on the version number, a hidden option for installing from the archive will open.
-<br>The latest full ROM `16.0.443` `https://ota-cdn.lenovo.com/firmware/2024828185240998-6800.zip`
+<br>
+The latest full ROM `16.0.443` `https://ota-cdn.lenovo.com/firmware/2024828185240998-6800.zip`
 
 # Can I root on current version of ZUI instead of downloading a previous release?
 Unfortunately, no.<br>
