@@ -15,7 +15,7 @@ Dont forget to install \Driver\Qualcomm USB Driver V1.0.exe
 
 # ZUI ROM
 Lenovo doesn't provide their ZUI ROMs, so far i managed to find 3 versions from XDA forum<br>
-ZUI 15.0.405(suggest to download)<br>
+ZUI 15.0.405(suggest to download for 9008 rescue)<br>
 `https://www.mediafire.com/file/vdfae5lei59frbo/TB371FC-ZUI_15.0.405-QFIL.zip/file`<br>
 
 Other versions for record purpose,<br>
@@ -23,8 +23,14 @@ ZUI 15.0.154 Dev version<br>
 `https://mirrors.lolinet.com/firmware/lenowow/Tab_P12_Pro_2023/TB371FC/`<br>
 ZUI 15.0.440(this is the first version supports PC mode)<br>
 `https://www.mediafire.com/file/k7pjpl2841rb8gl/TB371FC-ZUI_15.0.440_FASTBOOT_QFIL_v2.zip/file`<br>
+
 ZUI OTA ROMs can be found from the following post<br>
 `https://4pda.to/forum/index.php?showtopic=1086877&view=findpost&p=133146268`<br>
+2024 Sep 16 (proximately) 4pda posted OTA ROMs of ZUI, the following is instructions<br>
+- The OTA roms are installed by the default ZUI system updater
+- Rename the archive to OTA.zip and put it in the root of the disk
+- Go to settings -> About tablet -> System update
+- Tap 7 times on the version number, a hidden option for installing from the archive will open.
 
 # Can I root on current version of ZUI instead of downloading a previous release?
 Unfortunately, no.<br>
