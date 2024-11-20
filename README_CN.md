@@ -24,8 +24,8 @@ ZUI 15.0.154开发版<br>
 `https://mirrors.lolinet.com/firmware/lenowow/Tab_P12_Pro_2023/TB371FC/`<br>
 ZUI 15.0.440(这是首个支持了PC模式的版本)<br>
 `https://www.mediafire.com/file/k7pjpl2841rb8gl/TB371FC-ZUI_15.0.440_FASTBOOT_QFIL_v2.zip/file`<br>
-ZUI OTA other ROMs
-`https://4pda.to/forum/index.php?showtopic=1086877&view=findpost&p=133146268`
+ZUI OTA other ROMs<br>
+`https://4pda.to/forum/index.php?showtopic=1086877&view=findpost&p=133146268`<br>
 
 # 为什么要下载ROM刷机? 不能直接root现有的系统吗?
 因为root工具Magisk需要ROM相应版本的boot.img文件 而联想并不提供ROM下载<br>
