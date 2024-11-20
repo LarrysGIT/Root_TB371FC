@@ -24,9 +24,9 @@ ZUI 15.0.154 Dev version<br>
 ZUI 15.0.440(this is the first version supports PC mode)<br>
 `https://www.mediafire.com/file/k7pjpl2841rb8gl/TB371FC-ZUI_15.0.440_FASTBOOT_QFIL_v2.zip/file`<br>
 
-ZUI OTA ROMs can be found from the following post<br>
+2024 Sep 16 (proximately), 4pda user `VLAD S.` posted ZUI OTA ROMs<br>
 `https://4pda.to/forum/index.php?showtopic=1086877&view=findpost&p=133146268`<br>
-2024 Sep 16 (proximately) 4pda posted OTA ROMs of ZUI, the following is instructions<br>
+the following is instructions<br>
 - The OTA roms are installed by the default ZUI system updater
 - Rename the archive to OTA.zip and put it in the root of the disk
 - Go to settings -> About tablet -> System update
