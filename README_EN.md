@@ -23,6 +23,8 @@ ZUI 15.0.154 Dev version<br>
 `https://mirrors.lolinet.com/firmware/lenowow/Tab_P12_Pro_2023/TB371FC/`<br>
 ZUI 15.0.440(this is the first version supports PC mode)<br>
 `https://www.mediafire.com/file/k7pjpl2841rb8gl/TB371FC-ZUI_15.0.440_FASTBOOT_QFIL_v2.zip/file`<br>
+ZUI OTA other ROMs<br>
+`https://4pda.to/forum/index.php?showtopic=1086877&view=findpost&p=133146268`<br>
 
 # Can I root on current version of ZUI instead of downloading a previous release?
 Unfortunately, no.<br>
