@@ -25,13 +25,12 @@ ZUI 15.0.154开发版<br>
 ZUI 15.0.440(这是首个支持了PC模式的版本)<br>
 `https://www.mediafire.com/file/k7pjpl2841rb8gl/TB371FC-ZUI_15.0.440_FASTBOOT_QFIL_v2.zip/file`<br>
 
-ZUI OTA ROMs 大全<br>
+2024年9月16号左右4pda用户`VLAD S.`贴出了ZUI的各版本ROM的OTA链接<br>
 `https://4pda.to/forum/index.php?showtopic=1086877&view=findpost&p=133146268`<br>
-2024年9月16号左右4pda出现了ZUI的各版本ROM的OTA链接 基本使用教程如下<br>
+基本使用教程如下<br>
 - 通过ZUI自带的更新器进行更新
 - 下载完的ROM重命为ota.zip放到存储根目录
 - 在ZUI系统里点系统升级 对着中间的版本号猛点7次 然后右上角的三个点下会多出一个选项 "本地安装更新包"
-- 当然 如果你刷过boot.img要先刷回原来的版本
 
 # 为什么要下载ROM刷机? 不能直接root现有的系统吗?
 因为root工具Magisk需要ROM相应版本的boot.img文件 而联想并不提供ROM下载<br>
