@@ -32,7 +32,7 @@ ZUI 15.0.440(这是首个支持了PC模式的版本)<br>
 - 下载完的ROM重命为ota.zip放到存储根目录
 - 在ZUI系统里点系统升级 对着中间的版本号猛点7次 然后右上角的三个点下会多出一个选项 "本地安装更新包"
 <br>
-ROM`16.0.443`:https://ota-cdn.lenovo.com/firmware/2024828185240998-6800.zip
+ROM`16.0.443`:https://ota-cdn.lenovo.com/firmware/2024828185240998-6800.zip (这个版本流畅度相较16.0.430提升明显)
 
 # 为什么要下载ROM刷机? 不能直接root现有的系统吗?
 因为root工具Magisk需要ROM相应版本的boot.img文件 而联想并不提供ROM下载<br>
