@@ -57,6 +57,7 @@ Execute `fastboot flash unlock sn.img` to flash sn.img<br>
 Execute `fastboot reboot` tablet is now showing unlocked
 
 # 9008 flashing
+_bootloader must be unlocked_ [#7](https://github.com/LarrysGIT/Root_TB371FC/issues/7)<br>
 Open the device manager from Windows<br>
 Disconnect your tablet from Windows<br>
 Power off your tablet<br>
