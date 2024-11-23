@@ -56,7 +56,7 @@ _该步骤会导致失去保修且解锁后就无法再重新锁上_<br>
 运行`fastboot reboot`重启 屏幕上会提示设备已经解锁
 
 # 9008模式刷机OR救砖
-_需要解锁bootloader_ #7 <br>
+_需要解锁bootloader_ [#7](https://github.com/LarrysGIT/Root_TB371FC/issues/7)<br>
 打开电脑上的设备管理器<br>
 断开平板USB线<br>
 从系统里关机或者bootloader模式下选择关机 总之关机<br>
