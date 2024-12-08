@@ -105,6 +105,7 @@ Meanwhile, in the `boot.imgs` folder, you can find the following versions<br>
  - 15.0.664
  - 16.0.430
  - 16.0.443
+ - 16.0.474
 
 # Troubleshooting
 ## QFIL errors

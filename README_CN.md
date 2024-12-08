@@ -104,6 +104,7 @@ XDA上有用户从4PDA论坛上转了几个ZUI系统版本的boot.img (ZUI 15 bo
  - 15.0.664
  - 16.0.430
  - 16.0.443
+ - 16.0.474
 
 # Troubleshooting
 ## QFIL遇到错误
