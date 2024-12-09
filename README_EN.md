@@ -32,7 +32,6 @@ the following is instructions<br>
 - Go to settings -> About tablet -> System update
 - Tap 7 times on the version number, a hidden option for installing from the archive will open.
 <br>
-ROM `16.0.443`: `https://ota-cdn.lenovo.com/firmware/2024828185240998-6800.zip` (This ROM overall much smooth than 16.0.430)
 
 # Can I root on current version of ZUI instead of downloading a previous release?
 Unfortunately, no.<br>
