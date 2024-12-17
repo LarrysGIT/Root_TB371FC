@@ -121,9 +121,3 @@ Execute `su` it will give error `permission denied`<br>
 In Magisk, allow shell to run as root<br>
 Execute `su` again<br>
 Execute `pm disable com.lenovo.ota`
-
-## google apps are unable to connect to internet
-ZUI install google framework already, however, it is disabled by default and version is behind<br>
-Enable google framework from settings -> apps<br>
-ZUI bases on Android 13, download the apk and install it, google services will work again<br>
-`https://www.apkmirror.com/apk/google-inc/google-services-framework/google-services-framework-13-release/`
