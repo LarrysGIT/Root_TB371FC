@@ -120,9 +120,3 @@ XDA上有用户从4PDA论坛上转了几个ZUI系统版本的boot.img (ZUI 15 bo
 在Magisk中允许shell的root权限<br>
 重新执行`su`<br>
 执行`pm disable com.lenovo.ota`
-
-## google服务一直提示连不上服务器
-ZUI本身内置了google框架 但处于禁用状态 版本也太低<br>
-启用并更新google framework即可 ZUI基于Android 13<br>
-随便下载一个安装<br>
-`https://www.apkmirror.com/apk/google-inc/google-services-framework/google-services-framework-13-release/`
